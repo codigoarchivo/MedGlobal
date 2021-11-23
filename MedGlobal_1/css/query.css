@@ -1,0 +1,146 @@
+html {
+  font-size: 62.5%;
+}
+/* 1800px / 16px = 112.5em BIG DESKTOP <<<<< */
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 120%;
+  }
+  /* header */
+  /* logo */
+  .header .header-logo .header-svg {
+    width: 622px;
+    height: 209.04px;
+  }
+  /* info */
+  .header .main .info h1 {
+    font-size: 4.5rem;
+  }
+  .header .main .info p {
+    font-size: 3.7rem;
+  }
+  .header .main .info .info-item .info-link {
+    font-size: 4.3rem;
+  }
+  .header .main .info h2 {
+    font-size: 3.8rem;
+  }
+  .header .main .card .card-content .card-img {
+    height: 340px;
+  }
+  /* footer */
+  .footer p {
+    font-size: 3rem;
+  }
+  .footer .contact {
+    font-size: 3rem;
+  }
+  .footer .redirect .redirect-iten {
+    font-size: 2.6rem;
+  }
+  .footer .footer-social .footer-iten .footer-link svg {
+    width: 114px;
+    height: 84px;
+  }
+}
+/* {768px / 16px = 48em} table <<<<< */
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  .footer .footer-social .footer-iten .footer-link svg {
+    width: 37px;
+    height: 37px;
+  }
+}
+/* {425px / 16px = 26,5625em} mobil L  <<<<< */
+@media only screen and (max-width: 26.5625em) {
+  html {
+    font-size: 30%;
+  }
+  /* header */
+  .header .header-logo {
+    text-align: center;
+    padding: 5rem 0px;
+  }
+  .header .header-logo .header-svg {
+    width: 167px;
+    height: 64.04px;
+  }
+  /* info-span */
+  .info-span {
+    display: block;
+  }
+  /* info*/
+  .header .main .info h1 {
+    padding: 3rem 0;
+    font-size: 5rem;
+  }
+  .header .main .info p {
+    font-size: 3.7rem;
+  }
+  .header .main .info h2 {
+    font-size: 3.8rem;
+  }
+  .header .main .info .info-item .info-link {
+    margin: 4rem 0;
+    width: 85%;
+    font-size: 6.6rem;
+    padding: 3rem 5rem;
+  }
+  /* card */
+  .header .main .card {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 2rem;
+    text-align: center;
+  }
+  .header .main .card .card-content h2 {
+    font-size: 3.5rem;
+  }
+  .header .main .card .card-content .card-btn {
+    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  /* footer */
+  .footer p {
+    font-size: 2.5rem;
+  }
+  .footer .contact {
+    font-size: 2.5rem;
+  }
+  .footer .footer-social .footer-iten .footer-link svg {
+    margin: 0 3rem;
+    width: 25px;
+    height: 25px;
+  }
+  .footer .redirect {
+    grid-column: 1/10;
+    grid-row: 7/10;
+    display: inline-block;
+  }
+  .footer .redirect .redirect-iten:nth-child(1) {
+    display: block;
+    font-size: 2.5rem;
+    padding: 0.7rem 0;
+  }
+  .footer .redirect .redirect-iten:nth-child(2) {
+    display: block;
+    font-size: 2.5rem;
+    padding: 0.7rem 0;
+  }
+  .footer .redirect .redirect-iten:nth-child(3) {
+    display: block;
+    font-size: 2.5rem;
+    padding: 0.7rem 0;
+  }
+  .footer .redirect .redirect-iten .redirect-link {
+    margin: 0 0.5rem;
+  }
+}
+/* {325px / 16px = 23,4375em} mobil M <<<<< */
+@media only screen and (max-width: 23.4375em) {
+  html {
+    font-size: 25%;
+  }
+}

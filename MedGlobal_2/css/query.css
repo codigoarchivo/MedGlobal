@@ -1,0 +1,142 @@
+html {
+  font-size: 62.5%;
+}
+/* 1800px / 16px = 112.5em BIG DESKTOP <<<<< */
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 100%;
+  }
+  /* logo */
+  .header .header-logo .header-svg {
+    width: 622px;
+    height: 209.04px;
+  }
+  /* info */
+  .header .main .info h1 {
+    font-size: 5.2rem;
+  }
+  .header .main .info p {
+    font-size: 3.2rem;
+  }
+  .header .main .info .info-item .info-link {
+    padding: 3rem 5rem;
+  }
+  .header .main .info h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .info-span:last-child {
+    display: block;
+  }
+  /* footer */
+  .footer p {
+    font-size: 3rem;
+  }
+  .footer .contact {
+    font-size: 3rem;
+  }
+  .footer .redirect .redirect-iten {
+    font-size: 2.6rem;
+  }
+  .footer .footer-social .footer-iten .footer-link svg {
+    width: 114px;
+    height: 84px;
+  }
+}
+/* {768px / 16px = 48em} table <<<<< */
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 50%;
+  }
+  /* header */
+  .header .main .info .info-item .info-link {
+    padding: 2rem 5rem;
+  }
+  .header .main .info h1 {
+    display: flex;
+    justify-content: center;
+  }
+  .info-span:last-child {
+    display: block;
+  }
+}
+/* {425px / 16px = 26,5625em} mobil L  <<<<< */
+@media only screen and (max-width: 26.5625em) {
+  html {
+    font-size: 30%;
+  }
+  /* logo */
+  .header .header-logo {
+    padding: 6rem 0px;
+  }
+  .header .header-logo .header-svg {
+    width: 187px;
+    height: 64.04px;
+  }
+  /* info-span */
+  .info-span {
+    display: block;
+  }
+  /* info */
+  .header .main .info h1 {
+    font-size: 5rem;
+    display: block;
+  }
+  .header .main .info p {
+    font-size: 3.6rem;
+  }
+  .header .main .info .info-item .info-link {
+    padding: 4rem 5rem;
+    font-size: 4.6rem;
+    border-radius: 0.5rem;
+    margin: 3rem 0;
+  }
+  /* footer */
+  .footer p {
+    font-size: 2.6rem;
+  }
+  .footer .contact {
+    font-size: 2.6rem;
+  }
+
+  .footer .footer-social .footer-iten .footer-link svg {
+    margin: 0 2rem;
+    width: 25px;
+    height: 25px;
+  }
+  .footer .redirect {
+    grid-column: 1/10;
+    grid-row: 7/10;
+    display: inline-block;
+  }
+  .footer .redirect .redirect-iten:nth-child(1) {
+    display: block;
+    font-size: 2.6rem;
+    padding: 0.8rem 0;
+  }
+  .footer .redirect .redirect-iten:nth-child(2) {
+    display: block;
+    font-size: 2.6rem;
+    padding: 0.8rem 0;
+  }
+  .footer .redirect .redirect-iten:nth-child(3) {
+    display: block;
+    font-size: 2.6rem;
+    padding: 0.8rem 0;
+  }
+  .footer .redirect .redirect-iten .redirect-link {
+    margin: 0 0.5rem;
+  }
+}
+/* {325px / 16px = 23,4375em} mobil M <<<<< */
+@media only screen and (max-width: 23.4375em) {
+  .header .main .info .info-item .info-link {
+    font-size: 4rem;
+  }
+}
+/* {320px / 16px = 20em} mobil S <<<<< */
+@media only screen and (max-width: 20em) {
+  html {
+    font-size: 23%;
+  }
+}
